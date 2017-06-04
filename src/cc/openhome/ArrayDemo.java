@@ -36,6 +36,7 @@ public class ArrayDemo {
 		for (int score: scores2) { // 其实内部还是通过索引（反编译看到）
 			System.out.printf("学生2分数: %d\n", score);
 		}
+		
 		// 索引
 		System.out.printf("scores3 第%d个分数: %d\n", 2, scores3[2]);
 		

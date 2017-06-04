@@ -18,6 +18,10 @@ public class Main {
 		/* 使用Java撰写程序几乎都在使用对象，要产生对象必须先定义类（Class），类是对象对设计图，对象是类对实例。
 		 * 
 		 * */
+//		exp1();
+//		exp2();
+//		exp3();
+//		exp4();
 		exp5();
 	}
 	/* ********************4.5 查询Java API文件******************** */
@@ -30,14 +34,14 @@ public class Main {
 		 * 
 		 * 在Java中，字符串是java.lang.String实例，用来打包字符数组，可以用""包括一串字符来建立字符串。
 		 * */	
-//		StringDemo.exp1(); // 4.4.1 字符串基础
-//		StringDemo.exp2(); // 4.4.2 字符串特性
+		StringDemo.exp1(); // 4.4.1 字符串基础
+		StringDemo.exp2(); // 4.4.2 字符串特性
 		StringDemo.exp3(); // 4.4.3 字符串编码
 	}
 	
 	/* ********************4.3 数组对象******************** */
 	public static void exp3() {
-//		ArrayDemo.exp1(); // 4.3.1 数组基础
+		ArrayDemo.exp1(); // 4.3.1 数组基础
 		ArrayDemo.exp2(); // 4.3.2 操作数组对象
 	}
 	
@@ -46,14 +50,14 @@ public class Main {
 		/* 基本类型long、int、double、float、boolean等，在J2SE 5.0之前必须使用Long、Integer、Double、Boolean等类打包为对象，才能当作对象来操作。
 		 * 即使在J2SE 5.0开始支持自动装箱、拆箱，仍然有必要了解如何打包基本类型，这有助于进一步了解对象与基本类型的差别。
 		 * */
-//		IntegerDemo.exp1(); // 4.2.1 打包基本类型
-//		IntegerDemo.exp2(); // 4.2.2 自动装箱(autoboxing)、拆箱
+		IntegerDemo.exp1(); // 4.2.1 打包基本类型
+		IntegerDemo.exp2(); // 4.2.2 自动装箱(autoboxing)、拆箱
 		IntegerDemo.exp3(); // 4.2.3 装箱的内幕
 	}
 	/* ********************4.1 类与对象******************** */
 	public static void exp1() {
-//		Field.exp1(); // 4.1.1 定义类
-//		Guess.exp1(); // 4.1.2 使用标准类
+		Field.exp1(); // 4.1.1 定义类
+		Guess.exp1(); // 4.1.2 使用标准类
 		Guess.exp2(); // 4.1.3 对象指定与相等性
 	}
 }

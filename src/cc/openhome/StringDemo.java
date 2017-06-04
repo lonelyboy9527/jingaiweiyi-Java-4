@@ -86,9 +86,9 @@ public class StringDemo {
 		
 		// 3.比较内容相等性
 		System.out.println("使用equals比较内容相等性");
-		System.out.println(name1.equals(name2));
-		System.out.println(name1.equals(name3));
-		System.out.println(name3.equals(name4));
+		System.out.println(name1.equals(name2)); // true
+		System.out.println(name1.equals(name3)); // true
+		System.out.println(name3.equals(name4)); // true
 		
 		
 		/* <二> 不可变动字符串
@@ -99,7 +99,7 @@ public class StringDemo {
 		
 		String name21 = "Java";
 		String name22 = name21 + "World";
-		System.out.println(name22); 
+		System.out.println(name22); // JavaWorld
 		/* 通过反编译上面的程序，可以发现： 
 		 * String s = "Java";
 		 * String s1 = (new StringBuilder()).append(s).append("World").toString();
